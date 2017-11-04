@@ -35,4 +35,12 @@ def turn(board)
   end
 end
 
+def play(board)
+  loop do
+    until counter==9
+      turn(board)
+      counter +=1
+    end
+  end
+end
 # Define your play method below
